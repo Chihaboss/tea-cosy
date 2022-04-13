@@ -2,7 +2,8 @@ body{
     margin: 0px;
     background-color: black;
     color: seashell;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
+    font-size: 22px;
 }
 
 .navbar {
@@ -91,6 +92,7 @@ justify-content: center;
 background-repeat: no-repeat;
 align-content: center;
 flex: 1 1 1200px;
+margin-left: 20px;
     
 
 }
@@ -120,4 +122,9 @@ flex: 1 1 1200px;
 
 .location-container {
     display: flex;
+}
+
+.contact {
+    text-align: center;
+    height: 200px;
 }
